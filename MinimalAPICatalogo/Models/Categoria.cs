@@ -8,6 +8,6 @@
 
         public string? Descricao { get; set; }
 
-        ICollection<Produto> Produtos { get; set; } 
+        public ICollection<Produto> Produtos { get; set; } 
     }
 }
